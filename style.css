@@ -17,7 +17,8 @@
         margin-left: auto;
     }
     .heroimg{
-        height: 600px;
+        height: auto;
+        max-width: 200px;
         padding: 25px;
     }
     .content{
@@ -28,3 +29,11 @@
         background-color: #373738;
         padding: 20px;
     }
+    .flexContainer{
+        display: flex;
+        width: 33%;
+        flex-direction: row;
+
+    }
+    
+   
