@@ -29,11 +29,17 @@
         background-color: #373738;
         padding: 20px;
     }
-    .flexContainer{
-        display: flex;
-        width: 33%;
-        flex-direction: row;
 
+    .mySkills{
+        display: flex;
+        flex-direction: row;
     }
-    
+    .skillsSection{
+        width: 33%;
+        
+    }
+    .makeEmTheSame{
+        width: 200px;
+        height: 200px;
+    }
    
