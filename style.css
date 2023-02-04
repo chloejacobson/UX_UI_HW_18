@@ -2,44 +2,50 @@
     display:inline-block;
     vertical-align: top;
     }
-    .logo{
+ .logo{
         width: 23%;
         padding: 1%;
         text-align: center;
     }
-    .element.nav{
+ .element.nav{
         width: 73%;
         padding: 1%;
     
     }
-    .ul{
+.ul{
         width: 50%;
         margin-left: auto;
     }
-    .heroimg{
-        height: auto;
-        max-width: 200px;
+.heroimg{
+        height: 100px;
+        width: 200px;
         padding: 25px;
     }
-    .content{
+.content{
         width: 500px;
         margin: 0 auto;
     }
-    .footer{
+.footer{
         background-color: #373738;
         padding: 20px;
     }
 
-    .mySkills{
+.mySkills{
         display: flex;
         flex-direction: row;
     }
-    .skillsSection{
-        width: 33%;
-        
+.flexContainer{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
     }
-    .makeEmTheSame{
+.skillsSection{
+        width: 33%;
+        flex: grid;
+    }
+
+ .makeEmTheSame{
         width: 200px;
         height: 200px;
     }
-   
+
